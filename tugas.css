@@ -1,0 +1,16 @@
+body{
+  background-image:url('img/background1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container{
+  max-width: none;
+  width: 100%;
+}
+div[class*="col-"]{
+  border: 1px solid black;
+}
+.header{
+  height:100px;
+}
