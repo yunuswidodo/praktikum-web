@@ -1,16 +1,32 @@
-body{
-  background-image:url('img/background1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
+html body{
+  margin:0px;
 }
 .container{
   max-width: none;
   width: 100%;
 }
+
 div[class*="col-"]{
   border: 1px solid black;
 }
-.header{
-  height:100px;
+
+.header
+{background: url('img/header.jpg')no-repeat center center fixed;
+
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+ padding:30px
 }
+.navbar{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+
+
+.content{background:#ddd; min-height:500px; padding:10px;}
+.footer{background:#333; padding:10px; color:#ccc;}
