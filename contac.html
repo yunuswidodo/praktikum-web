@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="contac.css">
+
+</style>
+  </head>
+  <body>
+    <div class="container">
+     <div class="row">
+       <div class="col-sm-12 header"><span class="logo"><img src="img/rapa1.png"  height="80px" max-width="100px" align="left" /><br> Pondok Pesantren Modern RadenPaku <br> Trenggalek</span></div>
+    </div>
+    </div>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profil <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href='SejarahSingkat.html' target="blank">Sejarahsingkat</a></li>
+              <li class="divider"></li>
+              <li><a href='Visi&Misi.html' target="blank"> visi & Misi</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Struktur</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Akademik <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">MTs Plus Raden Paku</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Ma Plus Raden Paku</a></li>
+              <li class="divider"></li>
+              <li><a href="#">KMI</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Civitas <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Masyaikh</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Ustadz & Ustadzhah</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Oppm</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Agenda</a></li>
+          <li><a href="#">Prestasi</a></li>
+          <li><a href="#">Contak</a></li>
+
+      </div>
+    </div>
+  </nav>
+
+               <div class="container1">
+
+                 <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+  <script>
+      // fungsi initialize untuk mempersiapkan peta
+      function initialize() {
+      var propertiPeta = {
+          center:new google.maps.LatLng(-8.5830695,116.3202515),
+          zoom:9,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+
+      var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+      }
+
+      // event jendela di-load
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+                 <div class="row">
+
+                   <div class="col-sm-12"><P><strong>Alamat:</strong>  Jl. Ki Mangun Sarkoro No.17, Surodakan, Kec. Trenggalek, Kabupaten Trenggalek, Jawa Timur 66315</P></div>
+                   <div class="col-sm-12"><p> <strong>Telepon:</strong> (0355) 792006</p></div>
+                   <div class="col-sm-12"><p> <strong>Provinsi:</strong> Jawa Timur</div>
+                 </div>
+
+  <p>isikan Komentar di bawah</p><br><br>
+   Nama <br>
+   <input type=text name="text" id="teks" size="20"><br /><br>
+    imail :</br>
+    <input type=text name="text" id="teks" size="20"><br /><br>
+    nana :</br>
+    <textarea rows="12" name="b" id="kepala" cols="35" wrap="virtual"></textarea><br /><br>
+    <input type="button" onclick="kirim()" value="sendr" />
+    <input name="Clear" type="reset" value="Batal" />
+    </form><br />
+    <hr style="border: 1px dashed black;"></hr>
+    <hr></hr>
+
+
+</div>
+
+  </div>
+
+
+           <div class="footer">
+               &copy; 2015. Designed by Christian Rosandhy
+           </div>
+
+
+
+
+  </body>
+</html>
