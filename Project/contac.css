@@ -1,0 +1,33 @@
+html body{
+  margin:0px;
+}
+.container{
+  max-width: none;
+  width: 100%;
+}
+
+div[class*="col-"]{
+  
+
+}
+
+.header
+{background: url('img/header.jpg')no-repeat center center fixed;
+
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+ padding:10px
+}
+.navbar{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+
+
+.container1{background:#ddd; min-height:500px; padding:10px;}
+.footer{background:#333; padding:10px; color:#ccc;}
